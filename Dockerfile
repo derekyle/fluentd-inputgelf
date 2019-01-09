@@ -1,3 +1,3 @@
-FROM gcr.io/cloud-marketplace/google/elastic-gke-logging/fluentd:967b441c
+FROM fluent/fluentd-kubernetes-daemonset:v1.3-debian-gcs
 
 COPY plugins /fluentd/plugins/
